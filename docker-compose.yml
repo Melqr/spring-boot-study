@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+
+  mysql:
+    image: mysql:8.0.30
+    ports: 
+      - "3308:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: spring
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./MySQL:/docker-entrypoint-initdb.d
+
+volumes:
+  mysql-data:

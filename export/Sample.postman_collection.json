@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "b895ef75-932a-4497-a50e-249925034fb5",
+		"name": "Sample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46245980",
+		"_collection_link": "https://test-2257334.postman.co/workspace/Test's-Workspace~a47a1ef6-2736-4db0-8fb5-240fb19c33c1/collection/46245980-b895ef75-932a-4497-a50e-249925034fb5?action=share&source=collection_link&creator=46245980"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DEL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
