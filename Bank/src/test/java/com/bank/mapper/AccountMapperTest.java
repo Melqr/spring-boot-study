@@ -12,7 +12,7 @@ import com.bank.entity.ProductEntity;
 import com.bank.model.AccountDTO;
 
 @SpringBootTest
-public class AccountMapperTest {
+class AccountMapperTest {
 
     @Autowired
     private AccountMapper accountMapper;
