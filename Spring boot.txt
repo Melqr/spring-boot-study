@@ -1,0 +1,104 @@
+-Constructor autowired
+-Lombok, the library automaticlyy generate  boilerplate(setter,getter, constructor)
+
+
+
+
+Unit testing for example mvn clean install there is unit testing occured
+
+Technique to debug is narrow down, unit testing is the commmon methods
+
+spring boot auto deploy , and it help to generates microservices, monolitih services, comparatable to docker
+
+
+-Swagger tak jalan , obsrve Beanlogger
+
+create new services return 
+
+
+
+
+
+
+------------
+1) Make a service class(define model, and method example crud)
+2) declare class at the controller
+3) make a constructor
+4) mapping with ItemServiceAnalysis
+5) Change the synchronization of the data
+6) make testing at the swagger
+
+
+
+
+--------------------------
+custom Throw Exception
+1) add exception in the method controller,  ItemValidation.parseAndValidateLongId(id)
+2) Create new exception method in "validationExceptionHandler" class, change the naming as the handler that we want
+3) go to "ItemValidation.parseAndValidateLongId" class and change the naming as the  same exeptionhandler.
+4) buat testing by input at the swagger 
+    	
+
+-------------
+7.2
+
+
+1) Create productMapper based on customer mapper
+2) create productDTO based on item in product entity, can refer customer DTO sturcture
+3) then applied to test section
+
+observe the target forlde for references of output
+
+
+------------------------
+Logingg
+
+1) @slfj , lombok configure, use "log"
+sqp_ae4d383f4ced3c16f7588f8c074b353b6f318aa0
+
+
+
+
+mvn clean verify sonar:sonar -Dsonar.projectKey=Sample-App -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqp_ae4d383f4ced3c16f7588f8c074b353b6f318aa0
+
+
+
+
+mvn clean verify sonar:sonar-Dsonar.projectKey=Bank-App-Dsonar.host.url=http://localhost:9000-Dsonar.login=sqp_953d4a7d153f1a4fbcef7c48085631771c319630
+
+
+
+
+sqp_ca4caf0670ad07c549cd44d12bafdf23614f0caf
+
+mvn clean verify sonar:sonar -Dsonar.projectKey=Bank-App -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqp_ca4caf0670ad07c549cd44d12bafdf23614f0caf
+
+
+mvn clean verify sonar:sonar -Dsonar.projectKey=Sample-App -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqp_cb1e4312a09e91b4322330b1a0bacb3ecb58cd9e
+
+
+
+----------------------------------------------------------------------------------
+PRACTICAL 8
+---------------------------------------
+
+JAVA EE STRUCTURE
+(the key structure is dependency)
+1)Entity
+2) DTO
+3)Mapper--->
+i) do the unit MapperTest(j.unitTest)
+ii) mapperimplementation ---->javaee maven build run ----->table creation
+
+5) Backup into github
+6) Repo -->backup and test
+7) Services --->backup and test
+
+
+
+
+
+
+
+
+
