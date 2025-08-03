@@ -2,7 +2,7 @@ services:
   jenkins:
     build:
       context: .            # Current directory contains Dockerfile
-    container_name: jenkins
+    container_name: jenkins-practical 
     ports:
       - "2222:22"           # SSH (if used later)
       - "8081:8080"         # Optional app port
@@ -17,10 +17,11 @@ services:
   mysql:
     image: mysql:8.0.30
     ports: 
-      - "3308:3306"
+      - "3308:3308"
     environment:
       MYSQL_ROOT_PASSWORD: 1234
       MYSQL_DATABASE: spring
+      MYSQL_TCP_PORT: 3308
     volumes:
       - mysql-data:/var/lib/mysql
       - ./MySQL:/docker-entrypoint-initdb.d
